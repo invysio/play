@@ -16,9 +16,9 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-
 				<section data-background-video="assets/girl.mp4" data-background-video-loop=true data-background-size=cover data-background-video-muted>Slide 1</section>
 				<section data-background-video="assets/boxer.mp4" data-background-video-loop=true data-background-size=cover data-background-video-muted>Slide 2</section>
+				<section data-background-video="assets/bike.mp4" data-background-video-loop=true data-background-size=cover data-background-video-muted>Slide 3</section>
 			</div>
 		</div>
 
@@ -32,6 +32,21 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
+				autoSlide: 8000,
+        loop: true,
+        controls: false,
+        controlsTutorial: false,
+        autoSlideStoppable: false,
+        progress: false,
+        keyboard: false,
+        touch: false,
+        shuffle: false,
+        pause: false,
+        autoPlayMedia: true,
+        transition: 'slide',
+        backgroundTransition: 'slide',
+        transitionSpeed: 'fast',
+        hideCursorTime: 0,
 
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
